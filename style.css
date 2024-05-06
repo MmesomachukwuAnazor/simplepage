@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* start link */
+a{
+    text-decoration: none;
+}
+/* closed link */
+
+/* start header */
+header{
+    background-color: gray;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2{
+    color: black;
+    margin: 60px;
+}
+
+.item-list{
+    display: flex;
+}
+.item-list li{
+    list-style: none;
+    padding: 20px;
+    color: black;
+}
+
+
+/* closed header */
+
+
+/* start blog post section */
+.content-blog{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.image-blog {
+    width: 50%;
+    
+}
+
+
+.post_content-blog {
+    width: 50%;
+    padding: 30px;
+
+}
+
+.content-blog img{
+    width: 100%;
+    height: 400px;
+}
+
+.post_content-blog button{
+    background-color: blue;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* start about section */
+#about{
+    background-color: blue;
+    color: white;
+}
+
+#about h3{
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#about p{
+    font-size: 20px;
+    padding: 30px;
+}
+
+/* start project section */
+#project{
+    background-color: burlywood;
+    color: royalblue;
+}
+
+#project h3{
+    color: green;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#project p{
+    font-size: 20px;
+    padding: 30px;
+}
+
+/* start contact section */
+#contact{
+    background-color: goldenrod;
+    color: black;
+}
+
+#contact h3{
+    color: yellow;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#contact p{
+    font-size: 20px;
+    padding: 30px;
+}
